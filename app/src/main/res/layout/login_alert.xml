@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:text="WELCOME Agent Williams" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView75"
+        android:layout_marginTop="17dp"
+        android:text="Now you have exclusive access to missions in your area!"
+        android:layout_alignLeft="@+id/textView75"
+        android:layout_alignStart="@+id/textView75"
+        android:layout_alignRight="@+id/textView75"
+        android:layout_alignEnd="@+id/textView75"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView76"
+        android:layout_marginTop="18dp"
+        android:background="@color/orange"
+        android:text="Complete profile"
+        android:textColor="@color/white"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        app:srcCompat="@mipmap/popup_close_icon" />
+</RelativeLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+>
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="60dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/edt_bg_selector2"
+        android:textSize="12sp"
+        android:inputType="textEmailAddress"
+        android:paddingBottom="10dp" />
+
+    <EditText
+        android:id="@+id/editText27"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="30dp"
+        android:background="@drawable/edt_bg_selector2"
+        android:textSize="12sp"
+        android:inputType="textEmailAddress"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/editText15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/editText28"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edt_bg_selector2"
+        android:textSize="12sp"
+        android:hint="Subject"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:inputType="textPersonName"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/editText27"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editText29"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edt_bg_selector2"
+        android:textSize="12sp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:hint="Compose Email"
+        android:inputType="textPersonName"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/editText28"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBaseline="@+id/editText15"
+        android:layout_alignBottom="@+id/editText15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To"
+        android:textColor="@android:color/darker_gray"
+        android:layout_alignBaseline="@+id/editText27"
+        android:layout_alignBottom="@+id/editText27"
+        android:layout_alignLeft="@+id/textView101"
+        android:layout_alignStart="@+id/textView101" />
+
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView146"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@mipmap/down_arrow"
+        android:layout_alignBottom="@+id/textView102"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+
+
+</RelativeLayout>

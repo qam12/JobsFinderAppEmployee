@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="The house store"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/view2"
+        android:layout_alignStart="@+id/view2"/>
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Alaxendar Tran"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView61"
+        android:layout_alignLeft="@+id/textView61"
+        android:layout_alignStart="@+id/textView61" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_below="@+id/textView62"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view2" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView62"
+        android:layout_alignStart="@+id/textView62"
+        android:layout_below="@+id/view2"
+        android:layout_marginTop="18dp"
+        android:text="Friendly work environment "
+        android:textSize="15sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar3"
+        style="@style/Base.Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:numStars="5"
+        android:rating="4"
+        android:theme="@style/RatingBar"
+        android:layout_alignTop="@+id/textView64"
+        android:layout_toLeftOf="@+id/textView64"
+        android:layout_toStartOf="@+id/textView64" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView63"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="4.0"
+        android:textColor="@color/lblue"
+        android:layout_marginRight="10dp"
+        android:textSize="13sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_below="@+id/textView64"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view3" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/view3"
+        android:layout_alignStart="@+id/view3"
+        android:layout_below="@+id/view3"
+        android:layout_marginTop="21dp"
+        android:text="Fair salary Vs Duties"
+        android:textSize="15sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Base.Widget.AppCompat.RatingBar.Small"
+        android:theme="@style/RatingBar"
+        android:rating="3.0"
+        android:layout_alignTop="@+id/textView66"
+        android:layout_alignLeft="@+id/ratingBar3"
+        android:layout_alignStart="@+id/ratingBar3" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.0"
+        android:textColor="@color/lblue"
+        android:textSize="13sp"
+        android:layout_alignTop="@+id/textView65"
+        android:layout_alignLeft="@+id/textView64"
+        android:layout_alignStart="@+id/textView64" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_below="@+id/textView66"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view4" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/view4"
+        android:layout_alignStart="@+id/view4"
+        android:layout_below="@+id/view4"
+        android:layout_marginTop="19dp"
+        android:text="Health and Safety" />
+
+    <RatingBar
+        android:id="@+id/ratingBar5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Base.Widget.AppCompat.RatingBar.Small"
+        android:theme="@style/RatingBar"
+        android:rating="5.0"
+        android:layout_alignTop="@+id/textView68"
+        android:layout_alignLeft="@+id/ratingBar3"
+        android:layout_alignStart="@+id/ratingBar3" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView67"
+        android:layout_alignEnd="@+id/textView66"
+        android:layout_alignRight="@+id/textView66"
+        android:text="5.0"
+        android:textColor="@color/lblue"
+        android:textSize="13sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_below="@+id/textView68"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view5" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/view5"
+        android:layout_alignStart="@+id/view5"
+        android:layout_below="@+id/view5"
+        android:layout_marginTop="20dp"
+        android:text="Would you go back"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/toggleButton"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/switch_on"
+        android:checked="true"
+        android:layout_below="@+id/view5"
+        android:layout_alignRight="@+id/textView68"
+        android:layout_alignEnd="@+id/textView68"
+        android:layout_marginTop="11dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_below="@+id/toggleButton"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view6" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="Block Employer"
+        android:textSize="15sp"
+        android:layout_below="@+id/view6"
+        android:layout_alignLeft="@+id/view6"
+        android:layout_alignStart="@+id/view6" />
+
+    <ImageView
+        android:id="@+id/toggleButton2"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/switch_on"
+        android:layout_alignTop="@+id/textView70"
+        android:layout_alignLeft="@+id/toggleButton"
+        android:layout_alignStart="@+id/toggleButton"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_below="@+id/toggleButton2"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view7" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/view7"
+        android:layout_alignStart="@+id/view7"
+        android:layout_below="@+id/view7"
+        android:layout_marginTop="21dp"
+        android:text="Add to favorites" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_below="@+id/textView71"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view8" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:background="@drawable/sample"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimary"
+        android:textSize="13sp"
+        android:text="Submit"
+        android:layout_below="@+id/view8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:id="@+id/imageView93"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@mipmap/fev_icon"
+        android:layout_alignTop="@+id/textView71"
+        android:layout_alignRight="@+id/toggleButton2"
+        android:layout_alignEnd="@+id/toggleButton2" />
+
+</RelativeLayout>

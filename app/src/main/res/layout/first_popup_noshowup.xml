@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView208"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="WARNING!"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@mipmap/popup_close_icon" />
+
+    <TextView
+        android:id="@+id/textView209"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView208"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Agent Ryan, we have been informed you didn't show up to your assigned mission today. Please be aware you have 2 chances left before been deactivated as one of our prestigious agents. We need our agents to commit to the missions."
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button47"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView209"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/rectbg"
+        android:text="OK"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</RelativeLayout>

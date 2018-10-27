@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="65dp"
+        app:srcCompat="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        app:srcCompat="@color/dgray"
+        android:layout_above="@+id/textView130"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp" />
+
+    <TextView
+        android:id="@+id/textView122"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView27"
+        android:layout_alignStart="@+id/imageView27"
+        android:layout_alignTop="@+id/imageView27"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="21dp"
+        android:text="DAYS"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView122"
+        android:layout_alignStart="@+id/textView122"
+        android:layout_below="@+id/textView122"
+        android:layout_marginTop="7dp"
+        android:text="02"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView124"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:text=":"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="7dp"
+        android:layout_alignTop="@+id/textView123"
+        android:layout_toRightOf="@+id/textView123"
+        android:layout_toEndOf="@+id/textView123" />
+
+    <TextView
+        android:id="@+id/textView125"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOURS"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"
+        android:layout_alignBaseline="@+id/textView122"
+        android:layout_alignBottom="@+id/textView122"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView126"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="30dp"
+        android:layout_alignBaseline="@+id/textView123"
+        android:layout_alignBottom="@+id/textView123"
+        android:layout_alignRight="@+id/textView125"
+        android:layout_alignEnd="@+id/textView125" />
+
+    <TextView
+        android:id="@+id/textView127"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView124"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_toEndOf="@+id/textView126"
+        android:layout_toRightOf="@+id/textView126"
+        android:text=":"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/textView128"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="MINUTES"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"
+        android:layout_alignBaseline="@+id/textView125"
+        android:layout_alignBottom="@+id/textView125"
+        android:layout_alignRight="@+id/imageView27"
+        android:layout_alignEnd="@+id/imageView27" />
+
+    <TextView
+        android:id="@+id/textView129"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="46"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="30dp"
+        android:layout_alignBaseline="@+id/textView126"
+        android:layout_alignBottom="@+id/textView126"
+        android:layout_alignRight="@+id/textView128"
+        android:layout_alignEnd="@+id/textView128"
+        android:layout_marginRight="7dp"
+        android:layout_marginEnd="7dp" />
+
+    <TextView
+        android:id="@+id/textView130"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView28"
+        android:layout_alignStart="@+id/imageView28"
+        android:layout_below="@+id/imageView28"
+        android:layout_marginTop="20dp"
+        android:text="Snow removal"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView131"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driveaway | Sidewalk | Salting"
+        android:textColor="@color/colorPrimary"
+        android:textSize="9sp"
+        android:layout_below="@+id/textView130"
+        android:layout_alignLeft="@+id/textView130"
+        android:layout_alignStart="@+id/textView130" />
+
+    <TextView
+        android:id="@+id/textView132"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView130"
+        android:layout_alignBottom="@+id/textView130"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_toEndOf="@+id/imageView27"
+        android:layout_toRightOf="@+id/imageView27"
+        android:text="$"
+        android:textColor="@color/colorPrimary"
+        android:textSize="9sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView133"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView132"
+        android:layout_alignBottom="@+id/textView132"
+        android:layout_toEndOf="@+id/textView132"
+        android:layout_toRightOf="@+id/textView132"
+        android:text="105"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView134"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="Name"
+        android:layout_below="@+id/textView131"
+        android:layout_alignLeft="@+id/textView131"
+        android:layout_alignStart="@+id/textView131" />
+
+    <TextView
+        android:id="@+id/textView135"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ryan Mcmahan"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_alignBaseline="@+id/textView134"
+        android:layout_alignBottom="@+id/textView134"
+        android:layout_alignLeft="@+id/textView123"
+        android:layout_alignStart="@+id/textView123" />
+
+    <RatingBar
+        android:id="@+id/ratingBar6"
+        style="?android:ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView135"
+        android:rating="4.2"
+        android:theme="@style/RatingBar"
+        android:layout_toEndOf="@+id/textView126"
+        android:layout_toRightOf="@+id/textView126" />
+
+    <TextView
+        android:id="@+id/textView136"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView135"
+        android:layout_alignBottom="@+id/textView135"
+        android:layout_toEndOf="@+id/ratingBar6"
+        android:layout_toRightOf="@+id/ratingBar6"
+        android:text="4.2"
+        android:textColor="@color/lblue"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/textView137"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="Type"
+        android:textColor="@android:color/darker_gray"
+        android:layout_below="@+id/textView134"
+        android:layout_alignLeft="@+id/textView134"
+        android:layout_alignStart="@+id/textView134" />
+
+    <TextView
+        android:id="@+id/textView138"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView135"
+        android:layout_alignStart="@+id/textView135"
+        android:layout_alignTop="@+id/textView137"
+        android:text="Outdoor"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/textView139"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="Place"
+        android:textColor="@android:color/darker_gray"
+        android:layout_below="@+id/textView137"
+        android:layout_alignLeft="@+id/textView137"
+        android:layout_alignStart="@+id/textView137" />
+
+    <TextView
+        android:id="@+id/textView140"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView138"
+        android:layout_alignStart="@+id/textView138"
+        android:layout_alignTop="@+id/textView139"
+        android:text="Westpoint"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/textView141"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See location"
+        android:textColor="@android:color/darker_gray"
+        android:layout_alignBaseline="@+id/textView140"
+        android:layout_alignBottom="@+id/textView140"
+        android:layout_alignLeft="@+id/ratingBar6"
+        android:layout_alignStart="@+id/ratingBar6" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/textView141"
+        android:background="@drawable/dotted"
+        android:backgroundTint="@android:color/darker_gray"
+        android:layout_alignLeft="@+id/textView139"
+        android:layout_alignStart="@+id/textView139"
+        android:layout_alignRight="@+id/textView136"
+        android:layout_alignEnd="@+id/textView136"></View>
+
+</RelativeLayout>

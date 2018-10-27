@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_settings"/>
+
+    <TextView
+
+        android:id="@+id/textView107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="70dp"
+        android:text="Contact preferences"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView108"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView107"
+        android:layout_alignStart="@+id/textView107"
+        android:layout_below="@+id/textView107"
+        android:layout_marginTop="9dp"
+        android:text="Get email notifications" />
+
+    <ImageView
+        android:id="@+id/toggleButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/switch_on"
+        android:layout_alignTop="@+id/textView107"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/textView108"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/textView108"
+        android:layout_alignStart="@+id/textView108"
+        android:id="@+id/view10"></View>
+
+    <TextView
+        android:id="@+id/textView109"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/view10"
+        android:layout_alignStart="@+id/view10"
+        android:layout_below="@+id/view10"
+        android:layout_marginTop="16dp"
+        android:text="Receive newsletter" />
+
+    <ImageView
+        android:id="@+id/toggleButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/switch_on"
+        android:layout_alignTop="@+id/textView109"
+        android:layout_alignLeft="@+id/toggleButton4"
+        android:layout_alignStart="@+id/toggleButton4"/>
+
+    <TextView
+        android:id="@+id/textView110"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/toggleButton5"
+        android:layout_alignLeft="@+id/textView109"
+        android:layout_alignStart="@+id/textView109"/>
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView110"
+        android:layout_alignStart="@+id/textView110"
+        android:layout_below="@+id/textView110"
+        android:layout_marginTop="14dp"
+        android:text="Terms of use" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/textView111"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/textView111"
+        android:layout_alignStart="@+id/textView111"
+        android:id="@+id/view11"></View>
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Privacy policy"
+        android:layout_below="@+id/view11"
+        android:layout_alignLeft="@+id/view11"
+        android:layout_alignStart="@+id/view11" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/textView112"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/textView112"
+        android:layout_alignStart="@+id/textView112"
+        android:id="@+id/view12"></View>
+
+    <TextView
+        android:id="@+id/textView113"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/view12"
+        android:layout_alignStart="@+id/view12"
+        android:layout_below="@+id/view12"
+        android:layout_marginTop="17dp"
+        android:text="Thoughts? Comments? Issues?" />
+
+    <TextView
+        android:id="@+id/textView114"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView113"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_toEndOf="@+id/textView113"
+        android:layout_toRightOf="@+id/textView113"
+        android:text="Let us know"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:text="Jobs on the Map v1.0 © Jobs on the Map Inc. 2017"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/imageView114"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/next_arrow"
+        android:layout_above="@+id/view11"
+        android:layout_alignRight="@+id/toggleButton5"
+        android:layout_alignEnd="@+id/toggleButton5"/>
+
+    <ImageView
+        android:id="@+id/imageView115"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/next_arrow"
+        android:layout_above="@+id/view12"
+        android:layout_alignLeft="@+id/imageView114"
+        android:layout_alignStart="@+id/imageView114"/>
+
+</RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start|bottom"
+        android:background="@color/white"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+
+</android.support.v4.widget.DrawerLayout>

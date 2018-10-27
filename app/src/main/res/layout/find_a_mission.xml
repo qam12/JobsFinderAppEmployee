@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_findmission"/>
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/white"
+        app:srcCompat="@drawable/square"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignTop="@+id/imageView40"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/imageView40"
+        android:layout_toRightOf="@+id/imageView40"
+        app:srcCompat="@drawable/square" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/square"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/imageView40"
+        android:layout_alignLeft="@+id/imageView40"
+        android:layout_alignStart="@+id/imageView40" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignLeft="@+id/imageView41"
+        android:layout_alignStart="@+id/imageView41"
+        android:layout_alignTop="@+id/imageView42"
+        app:srcCompat="@drawable/square" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@drawable/square"
+        android:layout_below="@+id/imageView42"
+        android:layout_alignLeft="@+id/imageView42"
+        android:layout_alignStart="@+id/imageView42" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignLeft="@+id/imageView43"
+        android:layout_alignStart="@+id/imageView43"
+        android:layout_alignTop="@+id/imageView44"
+        app:srcCompat="@drawable/square" />
+
+    <TextView
+        android:id="@+id/textView175"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView44"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView44"
+        android:layout_marginBottom="26dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:text="Show Ads on the Map" />
+
+    <ImageView
+        android:id="@+id/toggleButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/switch_on"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView182"
+        android:layout_alignEnd="@+id/textView182"
+        android:layout_marginBottom="17dp"/>
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_alignTop="@+id/imageView40"
+        android:layout_toLeftOf="@+id/imageView41"
+        android:layout_toStartOf="@+id/imageView41"
+        android:layout_marginTop="9dp" />
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView175"
+        android:layout_alignStart="@+id/textView175"
+        android:layout_below="@+id/imageView46"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView177"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="General Labour"
+        android:layout_below="@+id/imageView47"
+        android:layout_alignLeft="@+id/textView175"
+        android:layout_alignStart="@+id/textView175" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        android:layout_alignTop="@+id/imageView46"
+        android:layout_alignRight="@+id/imageView41"
+        android:layout_alignEnd="@+id/imageView41" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_below="@+id/imageView48"
+        android:layout_toLeftOf="@+id/imageView48"
+        android:layout_toStartOf="@+id/imageView48"
+        android:layout_marginRight="9dp"
+        android:layout_marginEnd="9dp" />
+
+    <TextView
+        android:id="@+id/textView178"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forklift Operator"
+        android:layout_alignBaseline="@+id/textView177"
+        android:layout_alignBottom="@+id/textView177"
+        android:layout_alignRight="@+id/imageView48"
+        android:layout_alignEnd="@+id/imageView48" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        android:layout_alignTop="@+id/imageView42"
+        android:layout_alignRight="@+id/textView177"
+        android:layout_alignEnd="@+id/textView177"
+        android:layout_marginTop="9dp" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView47"
+        android:layout_alignRight="@+id/imageView47"
+        android:layout_below="@+id/imageView50"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView179"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electrician"
+        android:layout_below="@+id/imageView51"
+        android:layout_toLeftOf="@+id/imageView46"
+        android:layout_toStartOf="@+id/imageView46"
+        android:layout_marginTop="7dp" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignEnd="@+id/textView178"
+        android:layout_alignRight="@+id/textView178"
+        android:layout_alignTop="@+id/imageView50"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_below="@+id/imageView52"
+        android:layout_alignLeft="@+id/imageView49"
+        android:layout_alignStart="@+id/imageView49" />
+
+    <TextView
+        android:id="@+id/textView180"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Landscaping"
+        android:layout_alignBaseline="@+id/textView179"
+        android:layout_alignBottom="@+id/textView179"
+        android:layout_alignLeft="@+id/textView178"
+        android:layout_alignStart="@+id/textView178"
+        android:layout_marginLeft="9dp"
+        android:layout_marginStart="9dp" />
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignEnd="@+id/imageView50"
+        android:layout_alignRight="@+id/imageView50"
+        android:layout_alignTop="@+id/imageView44"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView51"
+        android:layout_alignRight="@+id/imageView51"
+        android:layout_below="@+id/imageView54"
+        android:layout_marginTop="7dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView181"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Server/Waitress"
+        android:layout_below="@+id/imageView55"
+        android:layout_alignRight="@+id/imageView54"
+        android:layout_alignEnd="@+id/imageView54" />
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        android:layout_alignTop="@+id/imageView54"
+        android:layout_alignLeft="@+id/imageView52"
+        android:layout_alignStart="@+id/imageView52" />
+
+    <ImageView
+        android:id="@+id/imageView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView53"
+        android:layout_alignRight="@+id/imageView53"
+        android:layout_below="@+id/imageView56"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView182"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snow removal"
+        android:layout_alignBaseline="@+id/textView181"
+        android:layout_alignBottom="@+id/textView181"
+        android:layout_alignLeft="@+id/textView180"
+        android:layout_alignStart="@+id/textView180" />
+</RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start|bottom"
+        android:background="@color/white"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">JobsOnTheMapEmployee</string>
+    <string name="find_mission_detail_text"><![CDATA[We are looking for detailed oriented people to help us with a variety of market research related tasks. The scope of the job will be around using the Curbside App to make purchase at various retailers and send a written report to <b><font color=#FFEA6C12> shoppingreports@shopcurbside.com </font></b>]]> of your experience.
+ \nThe written report should include:
+ &lt;br /&gt;&#8226; Screenshots of your order, pickup ready email.
+ &lt;br /&gt;&#8226; Production selection.
+ &lt;br /&gt;&#8226; In App experience and user experience of App.
+
+    </string>
+    <string name="find_mission_detail_text2">
+        <![CDATA[ The written report should include: \n &#8226; Screenshots of your order, pickup ready email. \n &#8226; Production selection. \n &#8226; In App experience and user experience of App.
+
+]]>
+    </string>
+    <string name="test"><![CDATA[<b><font color=\'#FFEA6C12\'> shoppingreports@shopcurbside.com </font></b>]]></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mission_detail_map">Map</string>
+
+    <string name="facebook_app_id">551902268483094</string>
+    <string name="fb_login_protocol_scheme">fb[APP_ID]</string>
+
+</resources>

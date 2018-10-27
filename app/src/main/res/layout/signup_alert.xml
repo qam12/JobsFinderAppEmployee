@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView17"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Congratulations Agent!"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView77"
+        android:layout_marginTop="20dp"
+        android:text="Our clients tend to select agents with full profile information"
+        android:layout_alignLeft="@+id/textView77"
+        android:layout_alignStart="@+id/textView77"
+        android:layout_alignRight="@+id/textView77"
+        android:layout_alignEnd="@+id/textView77"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/white"
+        android:textColor="@color/orange"
+        android:text="Button"
+        android:layout_below="@+id/textView78"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        android:text="Button"
+        android:layout_alignBaseline="@+id/button14"
+        android:layout_alignBottom="@+id/button14"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@mipmap/popup_close_icon" />
+</RelativeLayout>

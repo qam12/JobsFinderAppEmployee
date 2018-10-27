@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:orientation="horizontal"
+        android:background="@mipmap/sidemenu_header_bg"
+        >
+        <!-- sidemenu_header_bg -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/proImg"
+                android:src="@mipmap/place_avatar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:elevation="4dp"
+                android:clickable="false"
+                app:civ_border_color="@color/lgray"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="23dp"
+            >
+
+            <TextView
+                android:id="@+id/Emp_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agent"
+                android:layout_marginBottom="11px"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/view_emp_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tesing email"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+             />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

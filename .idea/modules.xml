@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:\Android pj\Employee\qamberhaider-jobsonthemap-2d3d6f4ce645\JobsOnTheMapEmployee.iml" filepath="D:\Android pj\Employee\qamberhaider-jobsonthemap-2d3d6f4ce645\JobsOnTheMapEmployee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\Android pj\Employee\qamberhaider-jobsonthemap-2d3d6f4ce645\app\app.iml" filepath="D:\Android pj\Employee\qamberhaider-jobsonthemap-2d3d6f4ce645\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qamberhaider-jobsonthemap-2d3d6f4ce645.iml" filepath="$PROJECT_DIR$/qamberhaider-jobsonthemap-2d3d6f4ce645.iml" />
+    </modules>
+  </component>
+</project>

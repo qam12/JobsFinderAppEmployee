@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:text="PERSONAL INFORMATION"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/darker_gray"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editText30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView116"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/textView116"
+        android:layout_below="@+id/textView116"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edt_bg_selector2"
+        android:ems="10"
+        android:hint="Full legal name"
+        android:inputType="textPersonName"
+        android:paddingBottom="10dp"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edt_bg_selector2"
+        android:ems="10"
+        android:hint="SSN"
+        android:inputType="textPersonName"
+        android:paddingBottom="10dp"
+        android:textSize="14sp"
+        android:layout_below="@+id/editText30"
+        android:layout_alignLeft="@+id/editText30"
+        android:layout_alignStart="@+id/editText30"
+        android:layout_alignRight="@+id/editText30"
+        android:layout_alignEnd="@+id/editText30" />
+
+    <TextView
+        android:id="@+id/textView117"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText31"
+        android:layout_alignStart="@+id/editText31"
+        android:layout_below="@+id/editText31"
+        android:layout_marginTop="21dp"
+        android:text="ADDRESS"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText31"
+        android:layout_alignLeft="@+id/textView117"
+        android:layout_alignRight="@+id/editText31"
+        android:layout_alignStart="@+id/textView117"
+        android:layout_below="@+id/textView117"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/edt_bg_selector2"
+        android:ems="10"
+        android:hint="Street address"
+        android:inputType="textPersonName"
+        android:paddingBottom="10dp"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText32"
+        android:layout_alignLeft="@+id/editText32"
+        android:layout_alignRight="@+id/editText32"
+        android:layout_alignStart="@+id/editText32"
+        android:layout_below="@+id/editText32"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edt_bg_selector2"
+        android:ems="10"
+        android:hint="Zip code"
+        android:inputType="phone"
+        android:paddingBottom="10dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView118"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText33"
+        android:layout_alignStart="@+id/editText33"
+        android:layout_below="@+id/editText33"
+        android:layout_marginTop="21dp"
+        android:text="SELECT YOUR PAYMENT METHOD"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView118"
+        android:layout_alignStart="@+id/textView118"
+        android:layout_below="@+id/textView118"
+        android:layout_marginTop="13dp"
+        android:text="Checking account"
+        android:textColor="@android:color/darker_gray"/>
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/radioButton"
+        android:layout_alignBottom="@+id/radioButton"
+        android:layout_alignEnd="@+id/editText33"
+        android:layout_alignRight="@+id/editText33"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:text="Debit card"
+        android:textColor="@android:color/darker_gray" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/radioButton"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/radioButton"
+        android:layout_alignStart="@+id/radioButton"
+        android:id="@+id/view12"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/radioButton2"
+        android:layout_toStartOf="@+id/radioButton2"></View>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/radioButton"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/radioButton2"
+        android:layout_alignStart="@+id/radioButton2"
+        android:id="@+id/view13"
+        android:layout_marginRight="10dp"></View>
+
+    <TextView
+        android:id="@+id/textView119"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/view12"
+        android:layout_alignStart="@+id/view12"
+        android:layout_below="@+id/view12"
+        android:layout_marginTop="19dp"
+        android:text="SELECT YOUR PAYMENT METHOD"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView119"
+        android:layout_alignStart="@+id/textView119"
+        android:layout_below="@+id/textView119"
+        android:layout_marginTop="11dp"
+        android:text="" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_above="@+id/textView120"
+        android:layout_toRightOf="@+id/imageView138"
+        android:layout_toEndOf="@+id/imageView138"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"/>
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_above="@+id/textView120"
+        android:layout_toRightOf="@+id/imageView139"
+        android:layout_toEndOf="@+id/imageView139"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"/>
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_above="@+id/textView120"
+        android:layout_toRightOf="@+id/button25"
+        android:layout_toEndOf="@+id/button25"/>
+
+    <TextView
+        android:id="@+id/textView120"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioButton3"
+        android:layout_alignStart="@+id/radioButton3"
+        android:layout_below="@+id/radioButton3"
+        android:layout_marginTop="23dp"
+        android:text="CHECKING ACOUNT INFORMATION"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/editText34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editText32"
+            android:layout_alignLeft="@+id/editText32"
+            android:layout_alignRight="@+id/editText32"
+            android:layout_alignStart="@+id/editText32"
+            android:layout_below="@+id/textView120"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edt_bg_selector2"
+            android:ems="10"
+            android:hint="Routing number"
+            android:inputType="phone"
+            android:paddingBottom="10dp"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editText35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editText32"
+            android:layout_alignLeft="@+id/editText32"
+            android:layout_alignRight="@+id/editText32"
+            android:layout_alignStart="@+id/editText32"
+            android:layout_below="@+id/editText34"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edt_bg_selector2"
+            android:ems="10"
+            android:hint="Zip code"
+            android:inputType="phone"
+            android:paddingBottom="10dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText35"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:text="Your banking information is being verified"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textView121"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/sample"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Save"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/imageView138"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/paypal"
+            android:layout_marginBottom="8dp"
+            android:layout_above="@+id/textView120"
+            android:layout_toRightOf="@+id/radioButton3"
+            android:layout_toEndOf="@+id/radioButton3"/>
+
+        <ImageView
+            android:id="@+id/imageView139"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/googlewallet"
+            android:layout_alignTop="@+id/imageView138"
+            android:layout_toRightOf="@+id/radioButton4"
+            android:layout_toEndOf="@+id/radioButton4"/>
+
+        <ImageView
+            android:id="@+id/imageView140"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/mastercard"
+            android:layout_above="@+id/textView120"
+            android:layout_toRightOf="@+id/radioButton5"
+            android:layout_toEndOf="@+id/radioButton5"
+            android:layout_marginBottom="3dp"/>
+
+        <ImageView
+            android:id="@+id/imageView141"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/visa"
+            android:layout_alignTop="@+id/imageView139"
+            android:layout_toRightOf="@+id/radioButton6"
+            android:layout_toEndOf="@+id/radioButton6"/>
+
+    </RelativeLayout>
+
+</ScrollView>

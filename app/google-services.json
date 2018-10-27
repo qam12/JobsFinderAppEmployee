@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "935095070490",
+    "firebase_url": "https://jobs-on-the-map.firebaseio.com",
+    "project_id": "jobs-on-the-map",
+    "storage_bucket": "jobs-on-the-map.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935095070490:android:9d1073e9d5f9e3fb",
+        "android_client_info": {
+          "package_name": "net.allstartech.www.jobsonthemapemployee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935095070490-a05gsf3pjdjr2t925u5kc7k6mf60l75c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqEIsW9__pHuHu92un6OvgCmM2BEOaMtM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

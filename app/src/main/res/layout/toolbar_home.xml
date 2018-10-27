@@ -1,0 +1,52 @@
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:theme="@style/MyCustomtool"
+    android:id="@+id/toobarhome"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/orange"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="6"
+    >
+
+    <ImageView
+        android:id="@+id/imageView77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/header_logo"
+        android:layout_weight="1"
+        android:gravity="right"
+        />
+
+    <TextView
+        android:id="@+id/textView225"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JOBS ON THE MAP"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_weight="4"
+        android:gravity="center"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/email_btn"
+        android:layout_weight="1"
+        android:layout_marginTop="3dp"
+        android:gravity="right"
+        />
+
+
+</LinearLayout>
+
+</android.support.v7.widget.Toolbar>

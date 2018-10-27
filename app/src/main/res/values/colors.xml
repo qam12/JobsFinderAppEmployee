@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e66110</color>
+    <color name="colorPrimaryDark">#cc570e</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lblue">#5aa1f8</color>
+    <color name="orange">#FFEA6C12</color>
+    <color name="dgray">#4c4b4a</color>
+    <color name="lgray">#e6e5e4</color>
+    <color name="ldgray">#4a5157</color>
+    <color name="bgblack">#000</color>
+    <color name="transparent">#00000000</color>
+    <color name="textLog">#93989c</color>
+    <color name="facebk">#4a6eaa</color>
+    <color name="itmesCol">#4a5157</color>
+    <color name="profCol">#fafafa</color>
+
+</resources>
+
+
+<!--
+
+    <color name="colorPrimary">#FFEA6C12</color>
+    <color name="colorPrimaryDark">#cc570e</color>
+-->

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/mission_header_img" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView8"
+                android:layout_marginLeft="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="13dp"
+                android:text="Snow removal"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView28"
+                android:layout_alignStart="@+id/textView28"
+                android:layout_below="@+id/textView28"
+                android:text="Driveway | Sidewalk | Salting"
+                android:textColor="@color/colorPrimary"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView29"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:text="105"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView31"
+                android:layout_alignBottom="@+id/textView31"
+                android:layout_toLeftOf="@+id/textView31"
+                android:layout_toStartOf="@+id/textView31"
+                android:text="$"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis blandit pharetra. Nam at mollis elit, et consequat mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent sollicitudin accumsan facilisis. Aenean congue vehicula mollis. Fusce id varius lacus. Sed sapien ante, varius vel blandit eget, placerat ac lacus. "
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                android:layout_below="@+id/textView29"
+                android:layout_alignLeft="@+id/textView29"
+                android:layout_alignStart="@+id/textView29"
+                android:layout_alignRight="@+id/textView31"
+                android:layout_alignEnd="@+id/textView31" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView33"
+                android:layout_alignStart="@+id/textView33"
+                android:layout_below="@+id/textView33"
+                android:layout_marginTop="15dp"
+                android:text="Required documentation:" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView34"
+                android:layout_alignStart="@+id/textView34"
+                android:layout_below="@+id/textView34"
+                android:text="XXX"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YYY"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                android:layout_below="@+id/textView36"
+                android:layout_alignLeft="@+id/textView36"
+                android:layout_alignStart="@+id/textView36" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_below="@+id/textView35"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/dotted"
+                android:backgroundTint="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/textView184"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/view"
+                android:layout_alignStart="@+id/view"
+                android:layout_alignTop="@+id/view"
+                android:layout_marginTop="15dp"
+                android:text="Name"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView185"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ryan Mcmahan"
+                android:textStyle="bold"
+                android:layout_alignBaseline="@+id/textView184"
+                android:layout_alignBottom="@+id/textView184"
+                android:layout_toLeftOf="@+id/ratingBar"
+                android:layout_toStartOf="@+id/ratingBar" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Base.Widget.AppCompat.RatingBar.Small"
+                android:theme="@style/RatingBar"
+                android:rating="4.2"
+                android:layout_marginLeft="10dp"
+                android:layout_alignBottom="@+id/textView185"
+                android:layout_alignLeft="@+id/button9"
+                android:layout_alignStart="@+id/button9" />
+
+            <TextView
+                android:id="@+id/textView186"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ratingBar"
+                android:layout_toEndOf="@+id/ratingBar"
+                android:layout_toRightOf="@+id/ratingBar"
+                android:text="4.2"
+                android:textColor="@color/lblue"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView187"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView184"
+                android:layout_alignStart="@+id/textView184"
+                android:layout_alignTop="@+id/textView184"
+                android:layout_below="@id/textView184"
+                android:layout_marginTop="15dp"
+                android:text="Type"
+                android:textColor="@android:color/darker_gray"/>
+
+            <TextView
+                android:id="@+id/textView188"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Outdoor"
+                android:textColor="@android:color/darker_gray"
+                android:layout_alignBaseline="@+id/textView187"
+                android:layout_alignBottom="@+id/textView187"
+                android:layout_alignLeft="@+id/textView185"
+                android:layout_alignStart="@+id/textView185" />
+
+            <TextView
+                android:id="@+id/textView189"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Place"
+                android:textColor="@android:color/darker_gray"
+                android:layout_below="@+id/textView187"
+                android:layout_alignLeft="@+id/textView187"
+                android:layout_alignStart="@+id/textView187" />
+
+            <TextView
+                android:id="@+id/textView190"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Westpoints 4 Kms  See location"
+                android:textColor="@android:color/darker_gray"
+                android:layout_alignBaseline="@+id/textView189"
+                android:layout_alignBottom="@+id/textView189"
+                android:layout_alignLeft="@+id/textView185"
+                android:layout_alignStart="@+id/textView185" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@id/textView189"
+                android:id="@+id/listView"
+                android:layout_marginTop="10dp"></ListView>
+
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/textView36"
+                android:layout_alignEnd="@+id/textView36" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/sample"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_marginTop="20dp"
+                android:text="Accept"
+                android:textColor="@color/white"
+                android:layout_below="@+id/listView"
+                android:layout_alignRight="@+id/textView28"
+                android:layout_alignEnd="@+id/textView28"
+                android:layout_marginBottom="20dp"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/sample"
+                android:text="Decline"
+                android:textColor="@color/colorPrimary"
+                android:layout_alignBaseline="@+id/button6"
+                android:layout_alignBottom="@+id/button6"
+                android:layout_toRightOf="@+id/textView34"
+                android:layout_toEndOf="@+id/textView34"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:textAllCaps="false"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

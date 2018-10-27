@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="UPLOAD PHOTO"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/textView79"
+                android:layout_below="@id/textView79"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:hint="First Aid"
+                android:padding="15dp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableRight="@mipmap/camera_icon"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/editText12"
+                android:layout_below="@id/editText12"
+                android:layout_marginRight="20dp"
+                android:hint="Air Brakes"
+                android:padding="15dp"
+                android:textSize="14sp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableRight="@mipmap/camera_icon"/>
+
+            <EditText
+                android:id="@+id/editText14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/editText13"
+                android:layout_below="@id/editText13"
+                android:layout_marginRight="20dp"
+                android:hint="WHMIS"
+                android:padding="15dp"
+                android:textSize="14sp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableRight="@mipmap/camera_icon"/>
+
+            <EditText
+                android:id="@+id/editText16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/editText14"
+                android:layout_below="@id/editText14"
+                android:layout_marginRight="20dp"
+                android:hint="H2S"
+                android:padding="15dp"
+                android:textSize="14sp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableRight="@mipmap/camera_icon"/>
+
+            <EditText
+                android:id="@+id/editText17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/editText16"
+                android:layout_below="@id/editText16"
+                android:layout_marginRight="20dp"
+                android:hint="Fall Arrest"
+                android:padding="15dp"
+                android:textSize="14sp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableRight="@mipmap/camera_icon"/>
+
+            <EditText
+                android:id="@+id/editText18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/editText17"
+                android:layout_below="@id/editText17"
+                android:layout_marginRight="20dp"
+                android:hint="Forklift Operator Ticket"
+                android:padding="15dp"
+                android:textSize="14sp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableRight="@mipmap/camera_icon"/>
+
+            <EditText
+                android:id="@+id/editText19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/editText18"
+                android:layout_below="@id/editText18"
+                android:layout_marginRight="20dp"
+                android:hint="Scaffolding"
+                android:padding="15dp"
+                android:textSize="14sp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableRight="@mipmap/camera_icon"/>
+
+            <EditText
+                android:id="@+id/editText20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/editText19"
+                android:layout_below="@id/editText19"
+                android:layout_marginRight="20dp"
+                android:hint="Bartender"
+                android:padding="15dp"
+                android:textSize="14sp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableRight="@mipmap/camera_icon"/>
+
+            <EditText
+                android:id="@+id/editText21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/editText20"
+                android:layout_below="@id/editText20"
+                android:layout_marginRight="20dp"
+                android:hint="Food safety"
+                android:padding="15dp"
+                android:textSize="14sp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableRight="@mipmap/camera_icon"/>
+
+            <EditText
+                android:id="@+id/editText22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/editText21"
+                android:layout_below="@id/editText21"
+                android:layout_marginRight="20dp"
+                android:hint="Food handler"
+                android:padding="15dp"
+                android:textSize="14sp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableRight="@mipmap/camera_icon"/>
+
+            <EditText
+                android:id="@+id/editText23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/editText22"
+                android:layout_below="@id/editText22"
+                android:layout_marginRight="20dp"
+                android:hint="Proserve"
+                android:padding="15dp"
+                android:textSize="14sp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableRight="@mipmap/camera_icon"/>
+
+            <EditText
+                android:id="@+id/editText24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/editText23"
+                android:layout_below="@id/editText23"
+                android:layout_marginRight="20dp"
+                android:hint="Security"
+                android:padding="15dp"
+                android:textSize="14sp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableRight="@mipmap/camera_icon"/>
+
+            <EditText
+                android:id="@+id/editText25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/editText24"
+                android:layout_below="@id/editText24"
+                android:layout_marginRight="20dp"
+                android:hint="Waiter/Waitress certification"
+                android:padding="15dp"
+                android:textSize="14sp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableRight="@mipmap/camera_icon"/>
+
+            <EditText
+                android:id="@+id/editText26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/editText25"
+                android:layout_below="@id/editText25"
+                android:layout_marginRight="20dp"
+                android:hint="Other"
+                android:padding="15dp"
+                android:textSize="14sp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableRight="@mipmap/camera_icon"/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
