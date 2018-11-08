@@ -15,7 +15,7 @@ In application lots of useful feature which in favor of job scheduling which is 
 2. Popular job appear on the map
 3. Job y share with friend and partner using reference code
 4. Mange Curriculum vitae also download just on single click
-5. Register/Signup using Google and Facebook.
+5. Register/Signup using Google and Facebook authentication.
 
 # Operating Environment
 1. The application will be operated on Android phones.
@@ -35,7 +35,7 @@ In application lots of useful feature which in favor of job scheduling which is 
 3. Payment Module not integrate.
 4. Required Google APIs map integration.
 5. Complex Firebase structure takes too much time for retrieving data.
-6. Currently App crashed on Ads Posting, although Handle it with exception handling
+6. Currently App crashed on Ads Posting, Although handle it with exception handling
 
 
 
